@@ -1,0 +1,38 @@
+{
+	"name": "@snickbit/gen",
+	"version": "0.0.0",
+	"description": "Minimal code generator using ETA",
+	"license": "MIT",
+	"main": "./bin/gen",
+	"bin": {
+		"gen": "./bin/gen"
+	},
+	"files": [
+		"bin"
+	],
+	"scripts": {
+		"build": "pnpm run bundle --minify",
+		"bundle": "esbuild --bundle --outfile=bin/gen src/index.ts --target=node12 --platform=node --external:shelljs",
+		"bundle:meta": "pnpm run bundle --minify --metafile=.meta.json",
+		"clean": "shx rm -rf ./bin",
+		"depcheck": "depcheck",
+		"dev": "pnpm run bundle --sourcemap",
+		"start": "node bin/gen",
+		"watch": "pnpm run dev --watch"
+	},
+	"dependencies": {
+		"@snickbit/node-cli": "^3.0.4",
+		"@snickbit/node-utilities": "^4.4.9",
+		"@snickbit/out": "^2.0.37",
+		"eta": "^1.12.3"
+	},
+	"devDependencies": {
+		"esbuild": "^0.14.38",
+		"shx": "^0.3.4",
+		"typescript": "^4.7.4"
+	},
+	"engines": {
+		"node": ">= 12"
+	},
+	"preferGlobal": true
+}
