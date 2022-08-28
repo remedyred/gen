@@ -10,9 +10,9 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  '@snickbit/node-cli': 3.0.4
+  '@snickbit/node-cli': link:../../libraries/node-cli
   '@snickbit/node-utilities': 4.4.9
-  '@snickbit/out': 2.0.37
+  '@snickbit/out': link:../../libraries/out
   eta: 1.12.3
 
 devDependencies:
@@ -41,17 +41,6 @@ packages:
     engines: {node: '>= 12'}
     dependencies:
       '@snickbit/utilities': 3.4.2
-    dev: false
-
-  /@snickbit/node-cli/3.0.4:
-    resolution: {integrity: sha512-z9trPbhQCoqh38ptSvwx0U6yZF1RCx6RnnSwEnJs63lSaYv2yCfCXzt0fwkn6GSG0127za+7szU5M4wRLVKj+g==}
-    engines: {node: '>= 12'}
-    dependencies:
-      '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.37
-      '@snickbit/utilities': 3.2.1
-      lilconfig: 2.0.6
-      yargs-parser: 21.1.1
     dev: false
 
   /@snickbit/node-utilities/4.4.9:
@@ -457,11 +446,6 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /lilconfig/2.0.6:
-    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
-    engines: {node: '>=10'}
-    dev: false
-
   /lodash.throttle/4.1.1:
     resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
     dev: false
@@ -594,8 +578,3 @@ packages:
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
-
-  /yargs-parser/21.1.1:
-    resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
-    engines: {node: '>=12'}
-    dev: false
