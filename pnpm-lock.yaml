@@ -5,7 +5,7 @@ specifiers:
   '@snickbit/node-utilities': ^4.4.9
   '@snickbit/out': ^2.0.37
   esbuild: ^0.17.0
-  eta: ^1.12.3
+  eta: ^2.0.0
   shx: ^0.3.4
   typescript: ^4.7.4
 
@@ -13,7 +13,7 @@ dependencies:
   '@snickbit/node-cli': 3.0.24
   '@snickbit/node-utilities': 4.4.9
   '@snickbit/out': 2.0.37
-  eta: 1.12.3
+  eta: 2.0.0
 
 devDependencies:
   esbuild: 0.17.0
@@ -412,8 +412,8 @@ packages:
       '@esbuild/win32-x64': 0.17.0
     dev: true
 
-  /eta/1.12.3:
-    resolution: {integrity: sha512-qHixwbDLtekO/d51Yr4glcaUJCIjGVJyTzuqV4GPlgZo1YpgOKG+avQynErZIYrfM6JIJdtiG2Kox8tbb+DoGg==}
+  /eta/2.0.0:
+    resolution: {integrity: sha512-NqE7S2VmVwgMS8yBxsH4VgNQjNjLq1gfGU0u9I6Cjh468nPRMoDfGdK9n1p/3Dvsw3ebklDkZsFAnKJ9sefjBA==}
     engines: {node: '>=6.0.0'}
     dev: false
 

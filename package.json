@@ -24,7 +24,7 @@
 		"@snickbit/node-cli": "^3.0.4",
 		"@snickbit/node-utilities": "^4.4.9",
 		"@snickbit/out": "^2.0.37",
-		"eta": "^1.12.3"
+		"eta": "^2.0.0"
 	},
 	"devDependencies": {
 		"esbuild": "^0.17.0",
